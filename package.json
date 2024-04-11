@@ -1,10 +1,11 @@
 {
   "name": "webcrawler",
   "version": "1.0.0",
-  "description": "",
+  "description": "seo link analyzer",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kevin5112/webcrawler/issues"
   },
-  "homepage": "https://github.com/kevin5112/webcrawler#readme"
+  "homepage": "https://github.com/kevin5112/webcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
 }
